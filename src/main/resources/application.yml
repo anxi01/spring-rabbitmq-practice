@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: spring-rabbitmq-practice
+
+  rabbitmq:
+    addresses: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+    cache:
+      channel:
+        size: 10
+      connection:
+        size: 10
+    publisher-confirms: true
